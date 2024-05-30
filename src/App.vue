@@ -42,16 +42,19 @@
       <p class="pt-4 text-sm text-gray-400">SOME WORKS</p>
       <a href="/works" class="pt-4 text-sm text-gray-400 link">SEE ALL</a>
     </div>
+    <WorksGallery />
   </div>
 </template>
 
 <script>
 import SideBar from "./components/SideBar.vue";
+import WorksGallery from "./components/WorksGallery.vue";
 
 export default {
   name: "App",
   components: {
     SideBar,
+    WorksGallery,
   },
 };
 </script>
