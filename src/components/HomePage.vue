@@ -34,16 +34,16 @@
     <p class="pt-4 text-sm text-gray-400">SOME WORKS</p>
     <a href="/works" class="pt-4 text-sm text-gray-400 link">SEE ALL</a>
   </div>
-  <WorksGallery />
+  <SomeWorksGallery />
 </template>
 
 <script>
-import WorksGallery from "./WorksGallery.vue";
+import SomeWorksGallery from "./SomeWorksGallery.vue";
 
 export default {
   name: "App",
   components: {
-    WorksGallery,
+    SomeWorksGallery,
   },
 };
 </script>

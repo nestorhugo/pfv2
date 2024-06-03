@@ -1,46 +1,21 @@
 <template>
   <div class="m-5 text-center lg:text-start">
-    <div class="flex flex-col lg:flex-row items-center">
-      <div class="lg:w-5/12 pb-5">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl mono">
-          🖥️ &lt;developer/&gt;
-        </h1>
-        <h1 class="text-3xl md:text-4xl lg:text-5xl pt-5 font-bold">
-          🖋 designer
-        </h1>
-        <h1 class="text-3xl md:text-4xl lg:text-5xl pt-5 font-bold script">
-          🎨 creative
-        </h1>
-      </div>
-      <div class="lg:w-7/12 flex h-96">
-        <CardWorkGallery
-          :source="require('../assets/about/nestor.png')"
-          desc="Nestor Hugo"
-          class="mx-2"
-        />
-
-        <CardWorkGallery
-          :source="require('../assets/about/parana.png')"
-          desc="Nestor Hugo"
-          class="mx-2"
-        />
-
-        <CardWorkGallery
-          :source="require('../assets/about/silvio-rodriguez.png')"
-          desc="Nestor Hugo"
-          class="mx-2"
-        />
-      </div>
-    </div>
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold">
+      Works and Projects
+    </h1>
+    <p class="pt-4 text-sm text-gray-400 pb-5">
+      HERE YOU CAN SEE EVERYTHING I HAVE ALREADY WORKED ON 😉
+    </p>
   </div>
+  <WorksGallery />
 </template>
 
 <script>
-import CardWorkGallery from "./CardWorkGallery.vue";
+import WorksGallery from "./WorksGallery.vue";
 
 export default {
   name: "WorksPage",
-  components: { CardWorkGallery },
+  components: { WorksGallery },
 };
 </script>
 
