@@ -2,7 +2,7 @@
   <div>
     <a :href="link">
       <img
-        class="h-auto max-w-full rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-lg overflow-hidden"
+        class="h-auto max-w-full rounded-lg transform transition duration-500 hover:scale-102 hover:shadow-lg overflow-hidden"
         :src="source"
         :alt="desc"
       />
